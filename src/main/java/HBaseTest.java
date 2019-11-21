@@ -2,7 +2,8 @@ import com.sun.xml.internal.ws.transport.http.HttpAdapter;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hbase.HColumnDescriptor;
-import org.apache.hadoop.hbase.HTableDescriptor;
+import org.apache.hadoop.hbase.HTableDescriptor;//会报错？？
+
 import org.apache.hadoop.hbase.client.Connection;
 import org.apache.hadoop.hbase.client.ConnectionFactory;
 import org.apache.hadoop.hbase.client.HBaseAdmin;
@@ -89,8 +90,7 @@ public class HBaseTest {
         addRow("student","001","Home","Province","Zhejiang");
         addRow("student","002","Home","Province","Beijing");
         addRow("student","001","Home","Province","Shanghai");
+        System.out.println("finish");
 
-        //deleteRow("yangmi","101","info");
-        //deleteAll("emp","1001","1002");
     }
 }
