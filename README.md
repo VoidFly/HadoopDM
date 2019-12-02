@@ -1,3 +1,1 @@
-## 实验3 Hadoop&Spark数据挖掘实验
-### 已完成
-1. 各省双十一销售量统计
+## Hadoop-Hbase-Hive-Spark实践
